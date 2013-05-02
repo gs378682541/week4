@@ -6,5 +6,5 @@ class Theater < ActiveRecord::Base
   # name             |  String
   # address          |  String
   # phone_number     |  String
-
+  attr_accessible :name, :address, :phone_number
 end
